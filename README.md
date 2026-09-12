@@ -14,7 +14,7 @@ The interface and behavior are intentionally kept as close as possible to `std::
 * Move constructor and move assignment
 * Append operations
 * Insert and erase operations
-* Substring extraction with `substr()`
+* Substring extraction with `substr()` using a begin and end index instead of a start index and count
 * Searching with `find()`
 * Bounds-checked access with `at()`
 * Direct element access with `operator[]`
