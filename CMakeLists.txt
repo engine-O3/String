@@ -1,9 +1,9 @@
-﻿# CMakeList.txt: CMake-Projektdatei der obersten Ebene. Führen Sie hier die globale Konfiguration aus,
-# und schließen Sie Unterprojekte ein.
-#
-cmake_minimum_required (VERSION 3.8)
+﻿cmake_minimum_required (VERSION 3.8)
 
-project ("StringClass")
+project (String)
 
-# Schließen Sie Unterprojekte ein.
-add_subdirectory ("StringClass")
+add_executable(String
+  main.cpp
+  String.cpp
+  String.h
+)
